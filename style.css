@@ -1,15 +1,58 @@
 *{
 	margin: 0;
-	padding: 0;
+	padding: 0;	
 }
+
+html body{
+	height: 100%;
+}
+
+body{
+	background:#555
+}
+.page-containe{
+	position: relative;
+	display: flex;
+}
+
+.page-content{
+	position: absolute;	
+	flex: 1;
+}
+
 .page-mainer{
-	font-size: 25px;
-	letter-spacing: 5px;
-	line-height: 50px;
-	text-align: center;
-	margin: 70px auto;
+	position: absolute;
+	background-color: #e4e4e4;
+	margin: 0 auto;
+	margin-top: 10px;
+
 }
+
 .avatar{
-	width: 400px;
-	height: 400px;
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+	margin:50px;
+}
+
+.introduce{
+	white-space: nowrap;
+	font-weight: normal;
+	letter-spacing: 10px;
+	line-height: 15px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.introduce name{
+	font-size: 10px;
+}
+
+.introduce class{
+	font-size: 8px;
+}
+
+.introduce describe{
+	font-size: 8px;
 }
